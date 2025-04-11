@@ -1,5 +1,5 @@
 ## 📥 Baixador de vídeos do youtube com o ffmpeg
-Um script simples em Python para baixar vídeos do YouTube direto para seu computador usando a biblioteca `pytube` e o `ffmpeg`.
+Um script simples em Python para baixar vídeos do YouTube direto para seu computador usando a biblioteca `pytubefix` e o `ffmpeg`.
 
 ### ⚙️ Requisitos
 Antes de rodar o script, instale a biblioteca necessária:
