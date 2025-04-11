@@ -18,7 +18,7 @@ while url != '0':
     print("Data de publicação:", video.publish_date)
     print("Visualizações:", video.views)
 
-    nome_limpo = limpar_nome(video.title)
+    nome_limpo = limpar_nome(video.title) # para que nao sobrescreva outros videos
 
     video_stream = video.streams.filter(adaptive=True, file_extension='mp4', only_video=True).order_by('resolution').desc().first()
     audio_stream = video.streams.filter(adaptive=True, only_audio=True, file_extension='mp4').order_by('abr').desc().first()
@@ -29,13 +29,13 @@ while url != '0':
     audio_path = audio_stream.download(output_path="Downloads/temp", filename=f"{nome_limpo}_audio.mp4")
     output_path = f"Downloads/{nome_limpo}.mp4"
 
-    # Local do ffmpeg (funciona tanto como .py quanto como .exe)
+    # local do ffmpeg
     if getattr(sys, 'frozen', False):
         ffmpeg_path = os.path.join(sys._MEIPASS, 'ffmpeg.exe')
     else:
         ffmpeg_path = os.path.join(os.getcwd(), 'ffmpeg.exe')
 
-    # Junta áudio + vídeo
+    # para juntar o áudio + vídeo
     subprocess.run([
         ffmpeg_path,
         '-i', video_path,
