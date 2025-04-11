@@ -10,7 +10,9 @@ pip install pytubefix
 Além disso, é necessário ter o ffmpeg no mesmo diretório do script ou disponível no PATH do sistema. Ele é responsável por unir o vídeo e o áudio em um único arquivo de alta qualidade.
 ### 🔸 Opção recomendada:
 Coloque o arquivo `ffmpeg.exe` no mesmo diretório do seu script `.py`.
+
 🔗 [Clique aqui para baixar](https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2025-03-27-git-114fccc4a5-essentials_build.7z)
+
 Após o download, extraia o conteúdo e pegue apenas o `ffmpeg.exe`, que está localizado na pasta `bin`.
 
 ## ▶️ Como usar
