@@ -11,18 +11,6 @@ Um script simples em Python para baixar vídeos do YouTube em alta qualidade, ut
 Se você prefere ter total transparência sobre o que está executando no seu computador ou tem receio de baixar arquivos .exe da internet, esta é a opção ideal. Clonando o repositório, você pode inspecionar o código-fonte e ter a certeza de que o programa faz apenas o que promete.
 Para isso, em vez de baixar o `.exe`, siga os passos abaixo:
 
-### 📁 Estrutura de Pastas (Obrigatório)
-
-Antes de começar, crie as pastas e organize os arquivos exatamente como mostrado abaixo para que o programa funcione:
-Baixador-de-videos-do-YouTube/
-│
-├── assets/
-│   └── ffmpeg.exe
-│
-├── baixar_video.py
-│
-└── requirements.txt
-
 ## Como Executar o Projeto
 
 ### Pré-requisitos
