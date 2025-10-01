@@ -63,10 +63,11 @@ Para isso, em vez de baixar o `.exe`, siga os passos abaixo:
 
 ![Usando o sistema](https://i.imgur.com/0PUFAvJ.gif)
 
----
-### ✨ Aproveite a ferramenta! ✨
----
+<p align="center">
+    ✨ Aproveite a ferramenta! ✨
+</p>
 
+---
 ### 📧 Feedback e Contato
 
 Encontrou algum problema ou tem alguma sugestão para melhorar o programa? Ficarei feliz em ouvir!
