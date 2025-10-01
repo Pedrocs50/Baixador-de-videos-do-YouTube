@@ -21,7 +21,7 @@ Para isso, em vez de baixar o `.exe`, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Pedrocs50/Baixador-de-videos-do-YouTube](https://github.com/Pedrocs50/Baixador-de-videos-do-YouTube)
+    git clone https://github.com/Pedrocs50/Baixador-de-videos-do-YouTube
     cd Baixador-de-videos-do-YouTube
     ```
 
@@ -30,11 +30,6 @@ Para isso, em vez de baixar o `.exe`, siga os passos abaixo:
         ```bash
         py -m venv venv
         venv/Scripts/activate
-        ```
-    * **Linux/Mac:**
-        ```bash
-        python3 -m venv venv
-        source venv/bin/activate
         ```
 
 3.  **Instale as dependências:**
@@ -61,10 +56,12 @@ Para isso, em vez de baixar o `.exe`, siga os passos abaixo:
 5. **Execute o Programa:**
     * Agora, basta rodar o script.
     ```bash
-    python baixar_video.py
+    py baixar_video.py
     ```
 
 6.  Siga as instruções no terminal para colar o link do vídeo e iniciar o download. O arquivo final será salvo em uma pasta `Downloads` criada dentro do mesmo diretório.
+
+![Usando o sistema](https://i.imgur.com/0PUFAvJ.gif)
 
 ---
 ### ✨ Aproveite a ferramenta! ✨
